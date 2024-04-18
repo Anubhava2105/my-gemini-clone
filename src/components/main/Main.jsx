@@ -27,29 +27,29 @@ const Main = () => {
 					<>
 						<div className="greet">
 							<p>
-								<span>Hello , Dev </span>
+								<span>Hello, Anubhava </span>
 							</p>
-							<p>How Can i Help You Today?</p>
+							<p>How Can I Help You Today?</p>
 						</div>
 						<div className="cards">
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("Suggest Some Place To Visit In Kerala")
+									handleCardClick("Give me some recipe to bake a cake")
 								}
 							>
-								<p>Suggest Some Place To Visit In Kerala </p>
+								<p>Give me some recipe to bake a cake </p>
 								<img src={assets.compass_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() =>
 									handleCardClick(
-										"Brainstorm team bonding activities for our work retreat"
+										"Tell me about the US Presidents in serial order"
 									)
 								}
 							>
-								<p>Brainstorm team bonding activities for our work retreat </p>
+								<p>Tell me about the US Presidents in serial order</p>
 								<img src={assets.message_icon} alt="" />
 							</div>
 							<div
@@ -65,12 +65,12 @@ const Main = () => {
 								className="card"
 								onClick={() => {
 									handleCardClick(
-										"Create a Script for the youtube video about coding "
+										"Create a script for a video related to Stranger Things"
 									);
 								}}
 							>
-								<p>Create a Script for the youtube video about coding </p>
-								<img src={assets.code_icon} alt="" />
+								<p>Create a script for a video related to Stranger Things </p>
+								<img src={assets.bulb_icon} alt="" />
 							</div>
 						</div>
 					</>
